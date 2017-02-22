@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/select_api.js"></script>
+		<title></title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+
+		<div id="div5">
+			<a href="city.html"><img src="img/house.png" /></a>
+			
+			<div class="div2" id="div2"></div>
+			
+			<div id="time" class="div1">
+			</div>
+
+		</div>
+		<div class="div3">21°C
+		</div>
+
+		<div class="div4" id="div4">
+
+		</div>
+
+	</body>
+
+	<script type="text/javascript">
+		function show() {
+			now = new Date();
+
+			hours = now.getHours();
+			minutes = now.getMinutes();
+			seconds = now.getSeconds();
+			if(minutes <= 9)
+				minutes = "0" + minutes
+			if(seconds <= 9)
+				seconds = "0" + seconds
+				//time.innerHTML=year+"年"+month+"月"+date+"日"+"现在时间："+hours+":"+minutes+":"+seconds;
+			time.innerHTML = hours + ":" + minutes;
+
+			setTimeout("show()", 1000);
+		}
+		show();
+	</script>
+
+</html>

@@ -1,0 +1,37 @@
+
+body{
+	font-family:"微软雅黑";
+}
+
+li{
+	color: #000000;
+	background-color: aquamarine;
+	text-align: center;
+	height: 50px;
+	margin: 10px;
+}
+ul{
+	list-style-type: none;
+	padding: 0px;
+}
+
+#province{
+	background-color: darkblue;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+p{
+	font-size: 40px;
+	margin: 10px;
+}
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+a:visited{
+	color: black;
+	text-decoration: none;
+}

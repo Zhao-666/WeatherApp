@@ -1,0 +1,55 @@
+{
+  "index.html": {
+    "resources": [
+      "second.html",
+      "js/jquery-3.1.1.min.js",
+      "js/demo.js",
+      "style.css",
+      "img/background.jpg"
+    ],
+    "refer": [
+      "second.html"
+    ]
+  },
+  "main.html": {
+    "resources": [
+      "style.css",
+      "js/jquery-3.1.1.min.js",
+      "img/background.jpg",
+      "js/demo.js",
+      "js/select_api.js",
+      "img/house.png",
+      "css/style.css",
+      "new_file.html",
+      "img/background.jpeg",
+      "city.html"
+    ],
+    "refer": [
+      "new_file.html",
+      "city.html"
+    ]
+  },
+  "new_file.html": {
+    "resources": [
+      "main.html",
+      "img/background.jpg",
+      "css/style.css",
+      "img/20150109201025_8tMJe.jpeg",
+      "img/background.jpeg"
+    ],
+    "refer": [
+      "main.html"
+    ]
+  },
+  "city.html": {
+    "resources": [
+      "js/jquery-3.1.1.min.js",
+      "js/maketable.js",
+      "main.html",
+      "css/appcss.css"
+    ],
+    "refer": [
+      "main.html"
+    ]
+  }
+}
